@@ -24,6 +24,10 @@ fetch(url)
           <figure>
             <figcaption> ${student.Name} </figcaption>
             <img src=" ${student.Image} " alt=" ${student.Name} ">
+            <p><span> Emoji: </span> ${student.Emoji} </p>
+            <p><span> Quote: </span> ${student.Quote} </p>
+            <p><span> Superpower: </span> ${student.Superpower}</p>
+            <p><span> Favorite Color: </span> ${student.Color}</p>
           </figure>
        `;
 
