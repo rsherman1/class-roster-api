@@ -13,8 +13,9 @@ fetch(url)
     console.log(data.Name);
     console.log(data.Image);
 
-    // get container for data
-    const roster = document.querySelector(".roster");
+     // get container for data
+     const gallery = document.querySelector(".gallery");
+
 
     // loop through data
     data.forEach( student => {
