@@ -15,6 +15,14 @@ main.roster {
     margin: 1rem 0;
 }
 
+.roster {
+
+}
+
+span {
+    font-weight: bold;
+}
+
 figure img {
     /*  */
     width: 100%;
