@@ -33,6 +33,6 @@ fetch(url)
        `;
 
       // insert EACH `student` record into container
-      gallery.insertAdjacentHTML("afterbegin", template);
+     roster.insertAdjacentHTML("afterbegin", template);
     });
   });
