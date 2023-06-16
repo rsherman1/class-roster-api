@@ -15,21 +15,21 @@ main {
     
 }
 
-.gallery figure {
+.roster figure {
     flex: 1 1 clamp(20ch, calc(1 / 4 * 100%), 100%);
     border: 0.5rem solid #66666E;
     border-radius: 45px;
     padding: 2rem;
 }
 
-.gallery figure, 
-.gallery img {
+.roster figure, 
+.roster img {
   width: 100%;
   height: 100%;
   border-radius: 45px;
 }
 
-.gallery h2 {
+.roster h2 {
   color: 9999a1;
   text-shadow: #D67229 1px 0 5px;
 }
