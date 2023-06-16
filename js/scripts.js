@@ -14,7 +14,7 @@ fetch(url)
     console.log(data.Image);
 
      // get container for data
-     const roster = document.querySelector(".roster");
+     const roster = document.querySelector(".gallery");
 
 
     // loop through data
@@ -33,6 +33,6 @@ fetch(url)
        `;
 
       // insert EACH `student` record into container
-     roster.insertAdjacentHTML("afterbegin", template);
+     gallery.insertAdjacentHTML("afterbegin", template);
     });
   });
