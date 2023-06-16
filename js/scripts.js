@@ -14,7 +14,7 @@ fetch(url)
     console.log(data.Image);
 
      // get container for data
-     const roster = document.querySelector(".gallery");
+     const gallery = document.querySelector(".gallery");
 
 
     // loop through data
