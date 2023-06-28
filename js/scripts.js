@@ -35,8 +35,7 @@ fetch(url)
       // insert EACH `student` record into container
      gallery.insertAdjacentHTML("afterbegin", template);
 
-      // change the color of favorite color paragraph to student.Color
-      document.getElementById(student.Color).querySelector(".color").style.color = student.Color;
-
+     
+      
     });
   });
