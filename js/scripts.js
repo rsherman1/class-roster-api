@@ -28,7 +28,7 @@ fetch(url)
             <p>${student.Emoji} </p>
             <p><span> Quote: </span> ${student.Quote} </p>
             <p><span> Superpower: </span> ${student.Superpower}</p>
-            <p><span> Favorite Color: </span> ${student.Color}</p>
+            <p class="color"><span> Favorite Color: </span> ${student.Color}</p>
           </figure>
        `;
 
