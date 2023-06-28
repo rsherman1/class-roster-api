@@ -18,14 +18,14 @@ main {
 .gallery figure {
     flex: 1 1 clamp(20ch, calc(1 / 4 * 100%), 100%);
     border: 0.5rem solid #66666E;
-    max-width: 50%;
+    max-width: 40%;
     border-radius: 45px;
     padding: 1.5rem;
 }
 
 .gallery figure,
 .gallery img {
-  max-width: 50%;
+  max-width: 40%;
   height: 100%;
   border-radius: 45px;
 }
