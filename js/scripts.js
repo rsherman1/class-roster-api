@@ -25,7 +25,7 @@ fetch(url)
           <figure>
             <img src="${student.Image}" alt="${student.Name}">
             <h2> ${student.Name} </h2>
-            <p><span> Emoji: </span> ${student.Emoji} </p>
+            <p>${student.Emoji} </p>
             <p><span> Quote: </span> ${student.Quote} </p>
             <p><span> Superpower: </span> ${student.Superpower}</p>
             <p><span> Favorite Color: </span> ${student.Color}</p>
