@@ -18,7 +18,7 @@ main {
 .gallery figure {
     flex: 1 1 clamp(20ch, calc(1 / 4 * 100%), 100%);
     border: 0.5rem solid #66666E;
-    max-width: 40%;
+    max-width: 30%;
     border-radius: 45px;
     padding: 1.5rem;
 }
