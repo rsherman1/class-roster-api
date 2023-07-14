@@ -35,6 +35,10 @@ main {
   text-shadow: #D67229 1px 0 5px;
 }
 
+.gallery p {
+  font-size: 12px;
+}
+
 
 span {
     font-weight: bold;
